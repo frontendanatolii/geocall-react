@@ -5,7 +5,7 @@
 
 
 .map_page_card_container {
-    position: absolute;
+    position: fixed;
     left: 15px;
     top: 15px;
     background-color: white;
@@ -43,7 +43,7 @@
     font-size: 16px;
     color: white;
     font-weight: 700;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@
 
 .map_page_card_buttons_container {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 10px;
 }
@@ -79,7 +79,7 @@
 }
 
 .map_page_v_rooms_list {
-    position: absolute;
+    position: fixed;
     bottom: 25px;
     right: 45px;
     display: flex;
@@ -106,7 +106,7 @@
 }
 
 .map_page_v_rooms_videos_container {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column-reverse;
     right: 10px;
