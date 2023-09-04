@@ -16,6 +16,8 @@ const VideoRoomButtons = ({ inRoom }) => {
   const isCameraOn = useSelector((state) => state.videoRooms.isCameraOn);
   const localStream = useSelector((state) => state.videoRooms.localStream);
 
+  console.log(localStream);
+
   const dispatch = useDispatch();
 
   const handleLeaveRoom = () => {

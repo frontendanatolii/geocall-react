@@ -11,7 +11,6 @@ export const getPeerId = () => {
 
 export const getAccessToLocalStream = async () => {
   const localStream = await navigator.mediaDevices.getUserMedia({
-    // if you not have camera - just set video to false
     video: true,
     audio: true,
   });

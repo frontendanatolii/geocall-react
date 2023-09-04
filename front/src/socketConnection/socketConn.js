@@ -10,7 +10,7 @@ import { call, disconnect } from "../realtimeCommunication/webRTCHandler";
 let socket = null;
 
 export const connectWithSocketIOServer = () => {
-  socket = io("https://geocall-with-react.vercel.app/", {
+  socket = io("http://localhost:3003", {
     transports: ['websocket'],
   });
 
