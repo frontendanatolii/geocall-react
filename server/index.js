@@ -50,7 +50,7 @@ const peerServer = PeerServer({ port: 9000, path: "/peer" });
 
 const PORT = process.env.PORT || 3003;
 
-server.listen('https://geocall-with-react.vercel.app/', () => {
+server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
