@@ -14,6 +14,11 @@ const MapPage = () => {
   const onlineUsers = useSelector((state) => state.map.onlineUsers);
   const cardChosenOption = useSelector((state) => state.map.cardChosenOption);
 
+  if (!myLocation) {
+    // eslint-disable-next-line no-restricted-globals
+    location.replace('/');
+  }
+
   const defaultMapProps = {
     center: {
       lat: myLocation.lat,
